@@ -80,7 +80,7 @@ async function getAnimeQuotes(param) {
 
 client.on("message", async (message) => {
     const isGroups = message.from.endsWith("@g.us") ? true : false;
-    const admins = ["6285882416840", "6281350223019", "6281357984716"];
+    const admins = ["6281234567890"];
     let messageBody = message.body.toLowerCase();
     if ((isGroups && config.groups) || !isGroups) {
         if (message.type == "image" || message.type == "video" || message.type == "gif") {
